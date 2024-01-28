@@ -29,7 +29,7 @@ Passo a passo para abrir o codigo usando o [Anaconda](https://www.anaconda.com/d
 2. Ative o ambiente virtual:
     Ative o ambiente virtual recém-criado com o seguinte comando:
     ```bash
-    conda activate nome_do_seu_ambiente
+        conda activate nome_do_seu_ambiente
     ```
 
 3. Instale o Jupyter Notebook:
@@ -48,13 +48,13 @@ Passo a passo para abrir o codigo usando o [Anaconda](https://www.anaconda.com/d
     Certifique-se de que tudo está atualizado executando o seguinte comando:
 
     ```bash
-    conda update --all
+        conda update --all
     ```
 
 6. Inicie o Jupyter Notebook:
     Depois de instalado, inicie o Jupyter Notebook com o comando:
     ```bash
-    jupyter notebook
+        jupyter notebook
     ```
 
 Isso abrirá uma nova janela ou guia no navegador padrão, onde você poderá navegar até o diretório do projeto e abrir o notebook associado.
