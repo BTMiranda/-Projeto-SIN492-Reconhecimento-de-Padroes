@@ -41,21 +41,21 @@ Passo a passo para abrir o codigo usando o [Anaconda](https://www.anaconda.com/d
 4. Instale as Bibliotecas Necessárias:
     Use o comando abaixo para instalar as Dependências:
 
-    ```bash
-        conda install numpy pandas matplotlib seaborn tensorflow scikit-learn pyarrow
-    ```
+        ```bash
+            conda install numpy pandas matplotlib seaborn tensorflow scikit-learn pyarrow
+        ```
 5. Certifique-se que esta tudo atualizado:
     Certifique-se de que tudo está atualizado executando o seguinte comando:
 
-    ```bash
-        conda update --all
-    ```
+        ```bash
+            conda update --all
+        ```
 
 6. Inicie o Jupyter Notebook:
     Depois de instalado, inicie o Jupyter Notebook com o comando:
-    ```bash
-        jupyter notebook
-    ```
+        ```bash
+            jupyter notebook
+        ```
 
 Isso abrirá uma nova janela ou guia no navegador padrão, onde você poderá navegar até o diretório do projeto e abrir o notebook associado.
 
