@@ -21,40 +21,41 @@ O objetivo principal é explorar e analisar as capacidades desses modelos no con
 Passo a passo para abrir o codigo usando o [Anaconda](https://www.anaconda.com/download), certifique-se tambem que possua o ambiente [Python](https://www.python.org/downloads/) instalado.
 
 1. Crie um ambiente virtual (opcional, mas recomendado):
-  Para garantir um ambiente isolado, recomenda-se criar um ambiente virtual. Utilize o seguinte comando para criar um ambiente virtual usando o Conda:
+    Para garantir um ambiente isolado, recomenda-se criar um ambiente virtual. Utilize o seguinte comando para criar um ambiente virtual usando o Conda:
     ```bash
         conda create --name nome_do_seu_ambiente python=3.8
     ```
 
 2. Ative o ambiente virtual:
-  Ative o ambiente virtual recém-criado com o seguinte comando:
-  ```bash
+    Ative o ambiente virtual recém-criado com o seguinte comando:
+    ```bash
     conda activate nome_do_seu_ambiente
-  ```
+    ```
 
 3. Instale o Jupyter Notebook:
-  Instale o Jupyter Notebook no ambiente virtual com o seguinte comando:
+    Instale o Jupyter Notebook no ambiente virtual com o seguinte comando:
     ```bash
-      conda install jupyter
+        conda install jupyter
     ```
 
 4. Instale as Bibliotecas Necessárias:
-    * Use o comando abaixo para instalar as Dependências:
+    Use o comando abaixo para instalar as Dependências:
 
     ```bash
         conda install numpy pandas matplotlib seaborn tensorflow scikit-learn pyarrow
     ```
 5. Certifique-se que esta tudo atualizado:
     Certifique-se de que tudo está atualizado executando o seguinte comando:
-        ```bash
-        conda update --all
-        ```
+
+    ```bash
+    conda update --all
+    ```
 
 6. Inicie o Jupyter Notebook:
-  Depois de instalado, inicie o Jupyter Notebook com o comando:
-  ```bash
+    Depois de instalado, inicie o Jupyter Notebook com o comando:
+    ```bash
     jupyter notebook
-  ```
+    ```
 
 Isso abrirá uma nova janela ou guia no navegador padrão, onde você poderá navegar até o diretório do projeto e abrir o notebook associado.
 
